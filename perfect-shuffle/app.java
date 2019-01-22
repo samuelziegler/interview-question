@@ -20,7 +20,6 @@ public class Deck
         }
     }
     
-    public shuffleddeck()
     {
         ArrayList shuffleddeck = new ArrayList(51);
     }

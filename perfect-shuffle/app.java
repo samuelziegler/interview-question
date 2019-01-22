@@ -1,4 +1,4 @@
-import java.util.Arraylist;
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Deck

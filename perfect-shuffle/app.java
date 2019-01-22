@@ -3,11 +3,11 @@ import java.util.Random;
 
 public class Deck
 {
-    int x;
-    int value;
-    int randomnumber;
-    int high;
-    int low;
+    private int x;
+    private int value;
+    private int randomnumber;
+    private int high;
+    private int low;
     
     public deck()
     {

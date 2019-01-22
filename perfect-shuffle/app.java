@@ -8,7 +8,7 @@ public class Deck
     private int randomnumber;
     private int high;
     private int low;
-    
+
     public Deck()
     {
         ArrayList deck = new ArrayList(51);
@@ -18,14 +18,15 @@ public class Deck
             deck.add(x);
             x++;
         }
+        {
+            ArrayList shuffleddeck = new ArrayList(51);
+        }
     }
-    
-    {
-        ArrayList shuffleddeck = new ArrayList(51);
-    }
-    
+
     public void Shuffle()
     {
+        ArrayList deck = new ArrayList(51);
+        ArrayList shuffleddeck = new ArrayList(51);
         if (deck.size()>0)
         {
             low = 0;
@@ -34,5 +35,4 @@ public class Deck
             shuffleddeck.add(randomnumber);
         }
     }
-    System.out.print("The deck is shuffled!");
 }

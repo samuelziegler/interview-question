@@ -9,7 +9,7 @@ public class Deck
     private int high;
     private int low;
     
-    public deck()
+    public Deck()
     {
         ArrayList deck = new ArrayList(51);
         x = 1;
